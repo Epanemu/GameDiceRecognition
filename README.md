@@ -39,3 +39,8 @@ You can set up the inference confidence treshold using the `--conf-thres` parame
 ![Precision curve](presentation/P_curve.png)
 
 ![Recall curve](presentation/R_curve.png)
+
+### Report
+
+Full report about the work (in czech) is in the `report.pdf` file.
+A presentation of the work (also in czech) is in the `presentation` folder.
