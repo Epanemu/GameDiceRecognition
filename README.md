@@ -5,7 +5,7 @@ Semestral task for Cognitive Systems course at CTU in Prague.
 The goal is to implement a recognition tool for standard 6-sided dice. Ideally inspired by human brain function.
 
 ## Runtime
-![Runtime](presentation/combined.mp4)
+![Runtime](presentation/combined.gif)
 
 Final implementation uses the well known YOLOv5 neural model. To run, firstly install the requirements.
 
