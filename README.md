@@ -4,11 +4,16 @@ Semestral task for Cognitive Systems course at CTU in Prague.
 
 The goal is to implement a recognition tool for standard 6-sided dice. Ideally inspired by human brain function.
 
+## Runtime
+![Runtime](presentation/combined.mp4)
+
 Final implementation uses the well known YOLOv5 neural model. To run, firstly install the requirements.
 
 ```sh
 $ pip install -r requirements.txt
 ```
+
+### Running the inference
 
 Then, since I added the trained models to this repository for simplicity, just run the inference:
 
@@ -29,8 +34,8 @@ Then, you can see the inferred images in `yolov5/runs/detect/exp*/` folder, (`*`
 ### Setup
 You can set up the inference confidence treshold using the `--conf-thres` parameter. Decide for the best
 
-[F1 score curve](presentation/F1_curve.png)
+![F1 score curve](presentation/F1_curve.png)
 
-[Precision curve](presentation/P_curve.png)
+![Precision curve](presentation/P_curve.png)
 
-[Recall curve](presentation/R_curve.png)
+![Recall curve](presentation/R_curve.png)
